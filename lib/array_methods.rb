@@ -21,7 +21,7 @@ def find_min_value(array)
   max=0
   min=max
 array.length.times do |count|
-  if array[count]< min
+  if array[count]< max
     max=array[count]
 end
 end
